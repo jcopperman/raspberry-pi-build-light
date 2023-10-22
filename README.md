@@ -20,7 +20,7 @@ This project is a Raspberry Pi-based GitHub webhook LED indicator. It uses LEDs 
     - Blue LED (GPIO pin 18)
 - Configure the LEDs as output pins in your Python script.
 
-<p align="center">
+
 | GPIO DESC | PIN (L) | PIN (R) | GPIO DESC |
 |-----------|---------|---------|-----------|
 | 3V3       | 1       | 2       | 5V        |
@@ -43,7 +43,6 @@ This project is a Raspberry Pi-based GitHub webhook LED indicator. It uses LEDs 
 | GPIO19    | 35      | 36      | GPIO16    |
 | GPIO26    | 37      | 38      | GPIO20    |
 | Ground    | 39      | 40      | GPIO23    |
-</p>
 
 Raspberry Pi 4B GPIO Pinout table. The bottom of this will be where the USB ports are on the Raspberry Pi looking at the top of the board.
 
