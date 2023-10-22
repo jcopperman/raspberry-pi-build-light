@@ -1,7 +1,7 @@
 # Raspberry Pi GitHub Webhook LED Indicator
 
 <div style="text-align:center;">
-    <img src="raspberry_pi.jpg" alt="Raspberry Pi" width="600" height="300">
+    <img src="raspberry_pi.jpg" alt="Raspberry Pi" width="400" height="600">
 </div>
 
 This project is a Raspberry Pi-based GitHub webhook LED indicator. It uses LEDs to visually indicate the status of GitHub Actions workflow runs triggered by webhook events. With this setup, you can easily monitor the progress and outcome of your GitHub workflows in real-time.
