@@ -18,6 +18,7 @@ This project is a Raspberry Pi-based GitHub webhook LED indicator. It uses LEDs 
     - Red LED (GPIO pin 17)
     - Green LED (GPIO pin 27)
     - Blue LED (GPIO pin 18)
+    - Negative (GND) to any Ground pin
 - Configure the LEDs as output pins in your Python script.
 
 
