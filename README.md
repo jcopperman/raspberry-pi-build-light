@@ -56,7 +56,7 @@ Raspberry Pi 4B GPIO Pinout table. The bottom of this will be where the USB port
    - Navigate to `Settings` > `Webhooks` > `Add webhook`.
    - Set the Payload URL to your ngrok public URL (e.g., `http://your-ngrok-url/webhook`).
    - Set the webhook content type to `application/json`.
-   - Select the individual events or choose `Send me everything` depending on your requirements. I selected `Workflow jobs` for this project and configure my `pi-led.py` script for this.
+   - Select the individual events or choose `Send me everything` depending on your requirements. I selected `Workflow jobs` for this project and configured my `pi-led.py` script for this.
    - Click `Add webhook`.
 
 3. **GitHub Actions Workflow**: Ensure that your repository has GitHub Actions workflows set up that will trigger the webhook events you want to monitor. For example, you can have a workflow for building and testing your code.
