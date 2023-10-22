@@ -10,11 +10,11 @@ This project is a Raspberry Pi-based GitHub webhook LED indicator. It uses LEDs 
 ## Hardware Setup
 
 ### Raspberry Pi
-- Ensure you have a Raspberry Pi board (any model with GPIO pins should work). I used the 4B model
+- Ensure you have a Raspberry Pi board (any model with GPIO pins should work). I used the 4B model.
 - Install the required libraries, including `RPi.GPIO`.
 
 ### LED Setup
-- Connect LEDs to the GPIO pins on your Raspberry Pi. In this project, we use three LEDs:
+- Connect LEDs to the GPIO pins on your Raspberry Pi. In this project, I used KY-016 full color [LED module](https://arduinomodules.info/ky-016-rgb-full-color-led-module/).
     - Red LED (GPIO pin 17)
     - Green LED (GPIO pin 27)
     - Blue LED (GPIO pin 18)
